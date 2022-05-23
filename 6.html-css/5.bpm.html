@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Padding Margin</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+        p {
+            
+            width: 300px;
+            height: 100px;
+            /* border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            border-left: 2px solid black;
+            border-right: 2px solid black; */
+            border: 2px solid black;
+
+            /* padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px; */
+            padding: 30px;
+            margin: 50px;
+            box-sizing: border-box;
+        }
+
+        p.one {
+            margin-bottom: 150px;
+        }
+        p.two {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <p class="one">
+        This is a pragraph one
+    </p>
+    <p class="two">
+        This is a pragraph two
+    </p>
+</body>
+</html>
