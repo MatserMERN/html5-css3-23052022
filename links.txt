@@ -1,5 +1,7 @@
 Emmet Cheat Sheet - https://docs.emmet.io/cheat-sheet/
 
+Favicon generator  - https://favicon.io/emoji-favicons/
+
 https://www.diffen.com/difference/HTML_vs_XHTML - HTML Vs XHTML
 
 https://www.w3schools.com/charsets/ref_html_symbols.asp - Symbols
