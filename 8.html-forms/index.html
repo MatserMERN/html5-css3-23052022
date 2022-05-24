@@ -14,7 +14,7 @@
         <form>
             <div>
                 <label>Username</label>
-                <input type="text" class="form-control w-50">
+                <input type="text" class="form-control w-50" required >
             </div>
             <br>
             <div>
@@ -26,7 +26,55 @@
                 <label>Comments</label>
                 <textarea class="form-control w-50" rows="3"></textarea>
             </div>
+            <br>
+            <div>
+                <label>Subjects</label>&nbsp;
+                <input type="checkbox" class="form-check-input"  value="1"> Maths
+                <input type="checkbox" class="form-check-input" value="2"> Physics
+                <input type="checkbox" class="form-check-input" value="3"> Chemistry
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>&nbsp;
+                <input type="radio" class="form-check-input" name="gender" value="1"> Female
+                <input type="radio" class="form-check-input" name="gender" value="0"> Male
+            </div>
+            <br>
+            <div>
+                <label>Countries</label>
+                <select class="form-select w-50">
+                    <option value="">Select</option>
+                    <option value="1">Bharat</option>
+                    <option value="2">Japan</option>
+                    <option value="3">Australia</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                Select All Files : <input type="file"> <br><br>
+                Select PDF File :  <input type="file" accept=".pdf, .csv"> <br> <br>
+                Select CSV File :  <input type="file" accept=".csv"> <br> <br>
+                Excel Files 97-2003 (.xls): <input type="file" accept="application/vnd.ms-excel" /> <br><br>
+                Excel Files 2007+ (.xlsx) : <input type="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" /> <br><br>
+            </div>
+            <br>
+            <div>
+                <input type="hidden" value="30" id="studentId">
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary">Click</button>&nbsp;
+                <button type="reset" class="btn btn-warning">Reset</button>&nbsp;
+                <button type="submit" class="btn btn-success">Submit</button>&nbsp;
+            </div>
+            <br>
+            <div>
+                <input type="button" value="Click" class="btn btn-primary">&nbsp;
+                <input type="reset" value="Reset" class="btn btn-warning">&nbsp;
+                <input type="submit" value="Submit" class="btn btn-success">&nbsp;
+                <input type="image" src="../images/bird/favicon.ico">
+            </div>
         </form>
     </div>
+    <br><br><br><br>
 </body>
 </html>

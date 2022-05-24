@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block & Inline Elements</title>
+    <style>
+        h1, label, span {
+            background-color: yellow;
+        }
+
+        h1 {
+            display: block;
+        }
+
+        /* label {
+            display: block;
+        } */
+
+    </style>
+</head>
+<body>
+    <h1>Block level element</h1>
+    <h1>Block level element</h1>
+    <label>Inline Element One</label>
+    <label>Inline Element Two</label>
+    <span>This is just like a label</span>
+    <!-- Don't use block level elements inside inline elements-->
+    <label for=""> Hello
+        <h1>Hey</h1>
+    </label>
+    <p style="color: blue;">
+        This is a paragraph
+        <h2>Header inside P</h2>
+    </p>
+</body>
+</html>
