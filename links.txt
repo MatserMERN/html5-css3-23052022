@@ -31,3 +31,5 @@ https://media.w3.org/2015/ - Sample audios and videos
 https://any-api.com/ - List of Fake APIs
 
 https://the-api-collective.com/ - Collection of APIs
+
+https://developer.mozilla.org/en-US/docs/Web/HTML - HTML5 Documentation

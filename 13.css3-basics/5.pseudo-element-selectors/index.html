@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element Selectors</title>
+    <style>
+        p::first-line, span::first-line {
+            color: #f00;
+            font-variant: small-caps;
+        }
+
+        div::first-letter, p::first-letter {
+            color: rgb(255,0,0);
+            font-size: xx-large;
+        }
+
+        h2::before {
+            content: "Welcome, ";
+        }
+
+        h2::after {
+            content: " Glad to have you back 😇😇😇";
+        }
+        .one::selection {
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur eveniet maiores omnis dolorem, iusto veritatis illum nesciunt nihil corrupti nam cupiditate ipsam doloribus voluptatibus, at recusandae quaerat quam deleniti, alias similique mollitia impedit. Velit mollitia, aspernatur exercitationem non hic sunt, ad delectus ipsam quidem, dolores modi sapiente dolor sequi. Vel non ipsum excepturi similique nostrum cupiditate, eum quae quis dolorum tenetur officia earum aut? Quia deleniti expedita sequi eaque odio maiores, labore quo commodi asperiores, repellendus earum rem adipisci? Quod doloribus quisquam ratione nesciunt temporibus! Ipsum deleniti natus possimus asperiores excepturi corrupti id quo dolorum adipisci reiciendis, nulla aliquid quos.
+    </p>
+    <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem assumenda molestias qui fugiat libero dolorum ratione vel hic repellendus voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minima beatae veritatis amet animi nihil commodi tempora ad voluptas vel? 
+    </span> 
+    <br> <br>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cupiditate iure provident suscipit ex. Quisquam inventore sed saepe aliquam cupiditate! Eveniet distinctio consequuntur praesentium asperiores quae odio sed aut! At quod eum ad earum omnis accusamus ipsum dolore odio soluta dolorum provident sint, debitis dolores facilis, odit vero veritatis similique.</div>
+
+    <h2>Scott Desatnick.</h2>
+    <div class="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem assumenda molestias qui fugiat libero dolorum ratione vel hic repellendus voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minima beatae veritatis amet animi nihil commodi tempora ad voluptas vel? 
+    </div>
+</body>
+</html>
